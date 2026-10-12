@@ -1,0 +1,51 @@
+{
+	"installation_volume": 1.0,
+	"installation_volume_idle": 0.33,
+
+	
+	"installation_volume_min": 0.2,
+	"installation_volume_start": 0.8,
+	"installation_volume_max": 1.0,
+
+	"noiseGlobal": 0.1,
+	"oignon_palettes": {
+		"palette_install_download": ["#7dffb4", "#ffffff"], 
+		"palette_install_fail": ["#d382fa", "#aff5ff"], 
+		"palette_install_fail2": ["#d3a3fa", "#8dffd2"], 
+		"palette_install_declic": ["#ff00ff", "#ff00ff", "#ff00ff", "#ff00ff", "#ff00ff", "#ff00ff", "#ff00ff","#00ff00", "#00ff00", "#00ff00", "#00ff00", "#00ff00", "#00ff00", "#00ff00"], 
+		"palette_omg": ["#6400ff", "#6400ff", "#6400ff", "#6400ff", "#6400ff", "#00ff64", "#00ff64", "#00ff64", "#00ff64", "#00ff64"], 
+		"palette_beautyshot_noir": ["#191717", "#0000ff", "#fd702d", "#133921", "#ff94d5", "#ff5200", "#ff67c9", "#4057ff"], 
+		"palette_beautyshot_rose": ["#ff67c9", "#4057ff", "#191717", "#0000ff", "#fd702d", "#133921", "#ff94d5", "#ff5200"], 
+		"palette_beautyshot_orange": ["#ff5200", "#ff67c9", "#4057ff", "#191717", "#0000ff", "#fd702d", "#133921", "#ff94d5"], 
+		"palette_beautyshot_rose_pale": ["#ff94d5", "#ff5200", "#ff67c9", "#4057ff", "#191717", "#0000ff", "#fd702d", "#133921"], 
+		"palette_beautyshot_vert": ["#133921", "#ff94d5", "#ff5200", "#ff67c9", "#4057ff", "#191717", "#0000ff", "#fd702d"], 
+		"palette_beautyshot_bleu": ["#0000ff", "#fd702d", "#133921", "#ff94d5", "#ff5200", "#ff67c9", "#4057ff", "#191717"], 
+		"palette_a": ["#BC6695", "#2747D9", "#030303", "#F3642B", "#074216", "#F476C3", "#296DEF", "#D66C2D"],
+		"palette_a_brique": ["#ff67c9", "#0000ff", "#030303", "#F3642B", "#074216", "#F476C3", "#296DEF", "#e54a00"],
+		"palette_a_tangerine_orange": ["#074216", "#F476C3", "#296DEF", "#ff5200","#030303", "#ff67c9", "#0000ff", "#030303", "#F3642B"],
+		"palette_a_tangerine_orange_b": ["#074216", "#F476C3", "#296DEF", "#ff5200","#030303", "#ff67c9", "#0000ff"],
+		"palette_a_tangerine_pink": ["#074216", "#F476C3", "#296DEF", "#ff5200", "#ff67c9", "#0000ff", "#030303", "#F3642B"],
+		"palette_a_tangerine_pink_b": ["#0000ff", "#030303", "#F3642B", "#074216", "#F476C3", "#296DEF", "#ff5200", "#ff67c9"],
+		"palette_a_tangerine_blue": ["#F476C3", "#296DEF", "#ff5200", "#ff67c9", "#0000ff", "#030303", "#F3642B", "#074216"],
+		"palette_a_tangerine": ["#ff67c9", "#0000ff", "#030303", "#F3642B", "#074216", "#F476C3", "#296DEF", "#ff5200"],
+		"palette_a_fluo": ["#ff67c9", "#3739fe", "#191717", "#fd702d", "#133921", "#F476C3", "#0000ff", "#ff5200"], //rose, bleu, noir, orange, vert, rose, outremer, tangerine
+		"palette_a_fluo_1": ["#ff67c9", "#4057ff", "#191717", "#fd702d", "#133921", "#F476C3", "#0000ff", "#ff5200"], //rose, bleu, noir, orange, vert, rose, outremer, tangerine
+		"palette_a_fluo_2": ["#ff67c9", "#0000ff", "#191717", "#ff5200", "#133921", "#F476C3", "#4057ff", "#fd702d"], //rose, outremer, noir, tangerine, vert, rose, bleu, orange
+		"palette_aimee_1": ["#191717", "#ff5200", "#44ff00", "#0000ff", "#ff67c9"], // noir, tangerine, vertfluo, bleu, orange
+		"palette_aimee_1b": ["#191717", "#ff67c9", "#44ff00", "#0000ff", "#e200ff"], // noir, rose, vertfluo, bleu, rose
+		"palette_aimee_2": ["#191717", "#ff5200", "#133921", "#e400ff", "#44ff00", "#0000ff", "#fd702d", "#ff67c9"], // noir, tangerine, vert, rose, vertfluo, bleu, orange, rose
+		"palette_aimee_3": ["#7e977e", "#ff9aff", "#e400ff", "#F476C3", "#44ff00", "#191717", "#e1823b"], //
+		"palette_aimee_4": ["#BC6695", "#44ff00", "#030303", "#F3642B", "#074216", "#F476C3", "#296DEF", "#D66C2D"],
+		"palette_aimee_5": ["#133921", "#F476C3", "#ff5200", "#ff67c9", "#4057ff", "#191717", "#0000ff", "#fd702d"], 
+		"palette_aimee_5b": ["#133921", "#ff94d5", "#ff5200", "#ff67c9", "#4057ff", "#191717", "#0000ff", "#fd702d"], 
+		"palette_diane": ["#191717", "#ff5200"], // noir, tangerine
+		"palette_direction": ["#ff67c9", "#0000ff", "#191717", "#ff5200", "#074216", "#F476C3", "#4057ff", "#fd702d"], //rose, outremer, noir, tangerine, vert, rose, bleu, orange
+		"palette_direction_b": ["#ff67c9", "#0000ff", "#074216", "#ff5200", "#191717", "#F476C3", "#4057ff", "#fd702d"], //rose, outremer, noir, tangerine, vert, rose, bleu, orange
+		"palette_b": ["#c78563","#4953B8","#982E73","#d2fddf","#ce6f44","#fcfcfc","#6251D4","#A5628f"],	
+		"palette_monstre_1": ["#fcff00","#e400ff","#d2fddf","#53ff6b","#0012ff","#d2d2d2","#0012ff","#53ff6b"],	
+		"palette_monstre_2": ["#c3c3c3","#b8b890","#53ff6b","#b40079","#0012ff","#d2d2d2","#0012ff","#53ff6b"],	
+		"palette_monstre_3": ["#c3c3c3","#bffff7","#53ff6b","#e400ff","#0012ff","#d2d2d2","#0012ff","#53ff6b"],	
+		"palette_monstre_4": ["#fcff00","#e400ff","#d2fddf","#53ff6b","#0012ff","#000000","#0012ff","#53ff6b"],	
+		"palette_taniere_pied": ["#fcff00","#0012ff","#000000","#53ff6b","#0012ff","#000000","#0012ff","#53ff6b"],	
+	}
+}

@@ -1,0 +1,392 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Brainstream · Opening study</title><meta name="description" content="Local opening-only study of Brainstream, ending at Instructions."><link rel="icon" href="assets/images/icon/favicon-32x32.png"><link rel="stylesheet" href="vendor/original.css"><link rel="stylesheet" href="local.css"></head><body><header id="local-header"><a href="https://www.nfb.ca/" target="_blank" rel="noopener" aria-label="NFB"><img src="assets/images/ui/logo_onf.jpg" alt="NFB / ONF"></a><button id="works" aria-label="About this local study"><span class="grid-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button><div class="header-space"></div><button id="local-fullscreen" aria-label="Full screen"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14 2h8v8l-3-3-5 5-2-2 5-5zM10 22H2v-8l3 3 5-5 2 2-5 5z"/></svg></button><a class="language" href="https://serotonine.onf.ca/" target="_blank" rel="noopener" aria-label="Original French website">FR</a></header><div id="local-error" role="alert" hidden></div>
+		<!-- <div id="background"></div> -->
+		<div id="main">
+			<div id="renderer"></div>
+		</div>
+
+
+		<!-- info pages and header -->
+		<div id="menu-header-container">
+			<a href="https://www.nfb.ca" target="_blank"><div id="menu-header-logo"></div></a>
+			<div id="menu-header-info-container"><div id="menu-header-info"></div></div>
+			<div id="menu-header-share-container"><div id="menu-header-share"></div></div>
+			<div id="menu-header-fs-container"><div id="menu-header-fs"></div></div>
+			<a href="https://serotonine.onf.ca" id="menu-header-language">en</a>
+		</div>
+
+		<div id="intro-aboutbtn-container">
+			<div id="intro-aboutbtn-buttons" class="ui-buttons">
+				<button id="intro-aboutbtn" class="ui-btn pressable"><div id="intro-aboutbtn-img" class="ui-btn-img en"></div></button>
+			</div>
+		</div>
+
+		<div id="pause-aboutbtn-container">
+			<div id="pause-aboutbtn-buttons" class="ui-buttons">
+				<button id="pause-aboutbtn" class="ui-btn pressable"><div id="pause-aboutbtn-img" class="ui-btn-img en"></div></button>
+			</div>
+		</div>
+
+		<!-- <div id="menu-button"><div id="menu-button-image"></div></div> -->
+		<div id="info-page">
+			<div id="info-page-header" class="page-header">
+				<div id="info-back-button"></div>
+				<div id="info-page-header-text">About</div>
+			</div>
+			<div id="about-page" class="text-page">
+				
+			<div class="about-credits">
+				Written and directed by<br> <a target="_BLANK" href="https://caroline-robert.com" class="about-name-link"><b>Caroline Robert</b></a><br>
+				In collaboration with<br> <b>Édouard Lanctôt-Benoit, Mathieu Charbonneau</b> and <b>Vincent Morisset</b><br>
+				Performed by<br> <b>Sophie Shields-Rivard</b><br>
+				Created by the studio <a target="_BLANK" href="http://aatoaa.com/" class="about-name-link"><b>AATOAA</b></a><br>
+				Produced by <a target="_BLANK" href="https://nfb.ca/" class="about-name-link"><b>the National Film Board of Canada</b></a><br><br>
+				<a target="_BLANK" class="about-link" onclick="if (window.MenuController) {window.MenuController.openCredits();}">Full credits</a><br>
+			</div>
+			<br>
+			<div class="text-spacer-line"></div>
+			<br>
+			You’re inside the head of D., a young girl who’s livestreaming her brain activity during a new kind of treatment session. Online, along with other participants, you massage her brain, experiencing the free flow of her thoughts, emotions and obsessions. Now, she’s telling you about her weekend. Earlier, her anxiety played some catchy beats that still lurk in one corner of her mind—like an earworm that won’t let go. Keep massaging. It’s doing her some good. In exchange, she’s giving you a guided tour of what’s going on inside her head, empowered by your gestures and stimulating presence. D. opens up as her mind wanders—perhaps a little bit like your own mind. Brainstream is an interactive animated film that explores, with sensitivity and humour, the mysteries of brain activity and the unpredictable trajectory of our thoughts.<br>
+			<br>
+			<div class="text-spacer-line"></div>
+			<br>
+			<a target="_BLANK" class="about-link" href="https://mediaspace.nfb.ca/epk/brainstream/">Link to the press kit</a><br>
+			<br>
+			<div class="text-spacer-line"></div>
+			<br>
+			<b>Legal notices</b><br><br>
+			Brainstream uses “cookies” to allow you to enjoy the experience over several sessions without losing your progress. We do not collect any personal data at any time during the experience. If you do not want the NFB to install a cookie on your device, you can disable cookies in your browser. If you do so, your progress in Brainstream will not be saved when you close your browser window.<br>
+		
+			</div>
+			<div id="share-page" class="text-page">
+				
+			<div class="share-large">
+				<div class="share-btn" id="share-facebook">
+					<div id="facebook-logo"></div>
+					<div class="share-text">Facebook</div>
+				</div>
+			</div>
+			<div class="share-large">
+				<div class="share-btn" id="share-twitter">
+					<div id="twitter-logo"></div>
+					<div class="share-text">Twitter</div>
+				</div>
+			</div>
+			<div class="share-large" id="share-link-container">
+				<div class="share-btn" id="share-btn-link">
+					<div id="sharelink-logo" id="share-link"></div>
+					<div class="share-text">Copy Link</div>
+				</div>
+			</div>
+		
+			</div>
+			<div id="credits-page" class="text-page">
+				
+			Created by the studio <b>AATOAA</b><br>
+			<br>
+			Produced by <b>the National Film Board of Canada</b><br>
+			<br>
+			<div class="credits-spacer-small"></div>
+			<br>
+			Directed and Animated by<br>
+			<b>Caroline Robert (AATOAA)</b><br>
+<br>
+			Coded by<br>
+			<b>Édouard Lanctôt-Benoit (AATOAA)</b><br>
+<br>
+			Music, Sound Design and Audio Supervision<br>
+			<b>Mathieu Charbonneau</b><br>
+<br>
+			Production Manager and Consultant to the Director<br>
+			<b>Vincent Morisset (AATOAA)</b><br>
+<br>
+			Voice of D. and Little Sister<br>
+			<b>Sophie Shields-Rivard</b><br>
+<br>
+			Voice of the Obsessions<br>
+			<b>Caroline Robert</b><br>
+<br>
+			Written by<br>
+			<b>Caroline Robert</b><br>
+<br>
+			Monologue Writers/Consultants<br>
+			<b>Carl Bessette<br>
+			Julianne Côté</b><br>
+<br>
+			Research<br>
+			<b>Alix Gagnon</b><br>
+<br>
+			English Translation<br>
+			<b>J.C. Sutcliffe</b><br>
+<br>
+			Sound Mix Consultant<br>
+			<b>Bernard Gariépy Strobl</b><br>
+<br>
+			Assistant Sound Designer - English Monologue<br>
+			<b>Nataq Huault (Bande à part)</b><br>
+<br>
+			Editor - Trailer<br>
+			<b>Jules Saulnier</b><br>
+<br>
+			<div class="credits-spacer-small"></div>
+			<br>
+			National Film Board of Canada<br>
+<br>
+			Producers<br>
+			<b>Marie-Pier Gauthier<br>
+			Isabelle Repelin</b><br>
+<br>
+			Executive Producer<br>
+			<b>Louis-Richard Tremblay</b><br>
+<br>
+			Head of Production<br>
+			<b>Marie-Ève Babineau</b><br>
+<br>
+			Senior Production Coordinators<br>
+			<b>Stéphanie Quevillon<br>
+			Véronique Tessier</b><br>
+<br>
+			Administrator<br>
+			<b>Marie-Andrée Bonneau</b><br>
+<br>
+			Senior Production Coordinator - Administration<br>
+			<b>Isabelle Limoges</b><br>
+<br>
+			Production Coordinators - Administration<br>
+			<b>Isabelle Gatti<br>
+			Evelyne Cortes Oquendo</b><br>
+<br>
+			Technology Director<br>
+			<b>Martin Viau</b><br>
+<br>
+			Information Technology<br>
+			<b>Sergiu Suciu</b><br>
+<br>
+			Interactive Media Coordinator<br>
+			<b>Caroline Fournier</b><br>
+<br>
+			Voice Recording<br>
+			<b>Geoff Mitchell</b><br>
+<br>
+			Technical Coordinator (post-production)<br>
+			<b>Mira Mailhot</b><br>
+<br>
+			Project Manager, Digital Production<br>
+			<b>Catherine Perreault</b><br>
+<br>
+			Editorial Manager<br>
+			<b>Valérie Darveau</b><br>
+<br>
+			Legal Services<br>
+			<b>Christian Pitchen</b><br>
+<br>
+			Marketing Manager<br>
+			<b>Laurianne Désormiers</b><br>
+<br>
+			Marketing Coordinator, Audiovisual & Digital<br>
+			<b>Angel Carpio</b><br>
+<br>
+			Marketing Coordinator<br>
+			<b>Éric Bondo</b><br>
+<br>
+			Social Media Strategists<br>
+			<b>Emilie Nguyen Ngoc<br>
+			Hannah Martin</b><br>
+<br>
+			Community Managers<br>
+			<b>Alyssia Duval-Nguon<br>
+			Melissa Sauvé</b><br>
+<br>
+			<div class="credits-spacer-small"></div>
+			<br>
+			Press Relations<br>
+			<b>MingoTwo</b><br>
+<br>
+			Additional Music<br>
+			<b>"Les gens qui m'aiment", Jimmy Hunt (2020)<br>
+			with the kind collaboration of Bravo Musique</b><br>
+			<br>
+			<div class="credits-spacer-small"></div>
+			<br>
+			Special thanks<br>
+<br>
+			Thank you for your outside eye and precious advice,<br>
+			<b>Laura Nadeau<br>
+			J-F Nadeau<br>
+			my nephew, Ravenne Portail<br>
+			Simone Stämpfli</b><br>
+<br>
+			Thank you for inspiring me,<br>
+			<b>all the young girls who agreed to answer my questions,<br>
+			all the teenagers in my life and their parents.</b><br>
+<br>
+			Thank you, from the bottom of my heart,<br>
+			<b>Gabi<br>
+			Vincent<br>
+			Ed<br>
+			my sisters, Fanny Morel and Sophie Robert<br>
+			my nephew and niece, Louis and Sybille Morel<br>
+			my parents, Chantal and Gérard Robert<br>
+			my grandparents, Fernande and Aimé Robert</b><br>
+<br>
+			<b>In memory of my grandmother Maïck (Yvonne Zulemanian), who loved classic French songs.<br>
+			And in memory of my uncle Patou (Patrick Thomas), who loved the Rolling Stones.</b><br>
+<br>
+			Thank you to my drawing club, La Mine:<br>
+			<b>Joël Vaudreuil, Isabelle Brouillette, Stéphane Lafleur, François Turcotte, Caroline Lavergne, Maxime Veilleux, Catherine Leduc and Matthieu Beaumont</b><br>
+<br>
+			And thank you to my talented and inspiring friends of all ages and to the generous people around me, who, whether consciously or not, helped make this film a reality.<br>
+			<b>Laurence Simard-Émond, Jules, Guillaume, Renaud, Paul and Antoine Avril<br>
+			Stéphanie Béliveau<br>
+			Henry Bernadet<br>
+			Stéphane Buellet<br>
+			Gabriel Luciani and Pascal Brouard<br>
+			Anne, Alice and Marc-André Chaput<br>
+			Yann Dechatrette<br>
+			Carole De Haro<br>
+			Sophie Bisson, Olive and Thibaut Duverneix<br>
+			Miryam Bouchard, Alice and PM Fortin<br>
+			Daniel Sanche and Sarah Fortin<br>
+			Chloé B. Fortin<br>
+			Ludivine Jacquemier<br>
+			Annie Jaimes<br>
+			Philippe Lambert<br>
+			Christina Maurey<br>
+			Thea Metcalfe, Miro and Sean Michaels<br>
+			Aymeric Morel<br>
+			Claudette Raymond, Marie-Ève, Olivier, Jérémie, Antoine and Paul Morisset<br>
+			Daniel and Martine Moussy<br>
+			Julien Paget<br>
+			Nathalie Loignon, Jeanne, Henri, Laure and Mathieu Pellerin<br>
+			Raphaëlle Nadeau and Madeleine Péloquin<br>
+			Jean-Michel Portail<br>
+			Isabelle de Bie, Laurent, Pierre and Yves Renaud<br>
+			Gustave, Laurier, Catherine D'Amour and Nicolas S. Roy<br>
+			Annie Saint-Pierre<br>
+			Mélanie Chabot, Victor and Nicolas Stämpfli<br>
+			Monique Simard<br>
+			Sophie Cadieux, Oscar and Mani Soleymanlou<br>
+			Hugues Sweeney<br>
+			Iris, Jessica and Brice Thomas<br>
+			Josiane La Pouette Thomas<br>
+			Sophie Galipeau, Eli, Sam and Dominic Turmel</b><br>
+			<br>
+		
+			</div>
+		</div>
+
+		<!-- intro and logos -->
+		<div id="error" class="alt-text-container center error-txt-container"><div class="alt-text center" id="error-txt">
+				<div id="error-title" class="en"></div>
+				<div class="error-sep">__________________</div><br>
+				Hi! Unfortunately,<br>
+				Brainstream doesn't work<br>
+				on this version of your browser.<br>
+				Try updating your<br>
+				software and reloading<br>
+				this page so we can<br>
+				go exploring.<br><br><br>
+				<a class="error-link" href="https://nfb.ca/interactive/brainstream" target="_BLANK">About</a><br><br>
+			</div>
+		</div>
+		
+		<div id="logos-background"></div>
+		<div id="loader" class="loader">
+			<div id="loader-content">
+				<div id="loader-txt" class="en"></div>
+			</div>
+		</div>
+		<div id="logos-container">
+			<!-- <div class="logo logo-text" id="created-by">Created by</div>
+			<div class="logo logo-img" id="logo-aatoaa"></div>
+			<div class="logo" id="logo-spacing"></div> -->
+			<!-- <div class="logo logo-text" id="produced-by">Produced by</div> -->
+			<div class="logo logo-img" id="logo-onf"></div>
+		</div>
+
+
+
+		<div id="early-end-buttons-container" class="ui-buttons-container">
+			<div id="early-end-buttons" class="ui-buttons en">
+				<div id="early-end-question" class="ui-question en"></div>
+				<div class="break"></div>
+				<button id="early-end-continue" class="ui-btn en pressable"><div id="early-end-continue-img" class="ui-btn-img en"></div></button>
+				<button id="early-end-stop" class="ui-btn en pressable"><div id="early-end-stop-img" class="ui-btn-img en"></div></button>
+			</div>
+		</div>
+
+		<div id="timeselect-buttons-container" class="ui-buttons-container">
+			<div id="timeselect-buttons" class="ui-buttons">
+				<div id="timeselect-question" class="ui-question en"></div>
+				<div class="break"></div>
+				<button id="timeselect-short" class="ui-btn pressable"><div id="timeselect-short-img" class="ui-btn-img en"></div></button>
+				<button id="timeselect-long" class="ui-btn pressable"><div id="timeselect-long-img" class="ui-btn-img en"></div></button>
+			</div>
+		</div>
+
+		<div id="instructions-headphones-container" class="ui-buttons-container">
+			<div id="instructions-headphones" class="ui-buttons">
+				<div id="instructions-headphones-img" class="ui-text en"></div>
+			</div>
+		</div>
+		<div id="instructions-glissez-container" class="ui-buttons-container">
+			<div id="instructions-glissez" class="ui-buttons">
+				<div id="instructions-glissez-img" class="ui-text en"></div>
+			</div>
+		</div>		
+		<div id="instructions-arrow-container">
+			<div id="instructions-arrow-buttons" class="ui-buttons">
+				<button id="instructions-arrow" class="ui-btn simple-toggle"><div id="instructions-arrow-img" class="ui-btn-img"></div></button>
+			</div>
+		</div>
+		<div id="instructions-enter-live-container">
+			<div id="instructions-enter-live-buttons" class="ui-buttons">
+				<button id="instructions-enter-live" class="ui-btn simple-toggle"><div id="instructions-enter-live-img" class="ui-btn-img en"></div></button>
+			</div>
+		</div>
+		<div id="instructions-enter-container">
+			<div id="instructions-enter-buttons" class="ui-buttons">
+				<button id="instructions-enter" class="ui-btn simple-toggle"><div id="instructions-enter-img" class="ui-btn-img en"></div></button>
+			</div>
+		</div>
+		<div id="end-buttons-container" class="ui-buttons-container">
+			<div id="end-buttons" class="ui-buttons">
+				<button id="end-credits" class="ui-btn pressable end"><div id="end-credits-img" class="ui-btn-img en"></div></button>
+				<div class="end-button-sep"></div>
+				<button id="end-share" class="ui-btn pressable end"><div id="end-share-img" class="ui-btn-img en"></div></button>
+				<div class="end-button-sep"></div>
+				<button id="end-restart" class="ui-btn pressable end"><div id="end-restart-img" class="ui-btn-img en"></div></button>
+			</div>
+		</div>
+
+		<div id="pause-container" class="ui-buttons-container en">
+			<div id="pause-buttons" class="ui-buttons">
+				<button id="pause" class="ui-btn pressable en"><div id="pause-img" class="ui-btn-img en"></div></button>
+			</div>
+		</div>
+
+		<div id="pause-timecode-container" class="en">
+			<div id="timecode-0" class="timecode-number"></div>
+			<div id="timecode-1" class="timecode-number"></div>
+			<div id="timecode-seconds" class="timecode-number timecode-seconds"></div>
+			<div id="timecode-2" class="timecode-number"></div>
+			<div id="timecode-3" class="timecode-number"></div>
+			<div id="timecode-separator" class="timecode-number timecode-separator"></div>
+			<div id="timecode-duration-0" class="timecode-number"></div>
+			<div id="timecode-duration-1" class="timecode-number"></div>
+			<div id="timecode-duration-seconds-2" class="timecode-number timecode-seconds"></div>
+			<div id="timecode-duration-2" class="timecode-number"></div>
+			<div id="timecode-duration-3" class="timecode-number"></div>
+			<!-- <div id="timecode-final"></div> -->
+		</div>
+
+		<div id="pause-headphones-container" class="en">
+			<div id="pause-headphones" class="en"></div>
+		</div>
+
+		<div id="pause-restart-container" class="ui-buttons-container en">
+			<div id="pause-restart-buttons" class="ui-buttons en">
+				<button id="pause-restart" class="ui-btn pressable en"><div id="pause-restart-img" class="ui-btn-img en"></div></button>
+			</div>
+		</div>
+
+		<script>window.appConfig={"static_root": "./assets/", "temp_page": false, "presets": "../data/presets.json", "svgMeta": "../data/svg-meta.json", "shadersBundle": "data/build/shaders.ef8267bf46e35250cd88.json", "timeline_en": "../data/timeline.json", "timeline_fr": "../data/timeline.json", "info_json": "data/build/info.8b51206a5243ede832a9.json", "ENABLE_AUTO_FTP": false};</script><script src="local.js"></script><script src="vendor/brainstream-engine.js"></script></body></html>

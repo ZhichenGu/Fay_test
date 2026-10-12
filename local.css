@@ -1,0 +1,11 @@
+/* Preserve original renderer coordinates, including the 46px overlay header. */
+#local-header{position:fixed;inset:0 0 auto;height:46px;z-index:20000;display:flex;align-items:stretch;background:#191919;border-bottom:1px solid #000;color:#ddd;font:14px Arial,sans-serif}
+#local-header a,#local-header button{display:flex;align-items:center;justify-content:center;color:#ddd;background:transparent;border:0;border-right:1px solid #393939;text-decoration:none;padding:0;cursor:pointer;min-width:52px}
+#local-header>a:first-child{width:72px}#local-header img{width:43px;height:30px;object-fit:contain;filter:invert(1)}
+#local-header .grid-icon{font-size:31px;color:#777;line-height:1}#local-header .header-space{flex:1}#local-header #local-fullscreen{border-left:1px solid #393939;font-size:27px}#local-header .language{min-width:46px;font-weight:bold;font-size:12px}
+#local-header button:hover,#local-header a:hover{background:#292929}#local-header :focus-visible{outline:2px solid white;outline-offset:-4px}
+#local-error{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);max-width:80%;padding:12px 20px;border-radius:12px;background:#fff;z-index:30000;font:14px/1.5 sans-serif}
+#menu-header-container{display:none!important}
+@media(max-width:600px){#local-header{height:40px}#local-header>a:first-child{width:60px}#local-header a,#local-header button{min-width:42px}}
+
+#local-header .grid-icon{display:grid;grid-template-columns:repeat(3,4px);gap:4px}#local-header .grid-icon i{width:4px;height:4px;background:#777}

@@ -1,0 +1,87 @@
+{
+  "AUDIO_DURATION": 60,
+  "voice": "unused",
+  "audio_divisions": [
+    0,
+    60
+  ],
+  "audio": {
+    "00:00": {
+      "id": "LOCAL_HOLD",
+      "preset": "none"
+    }
+  },
+  "pausePreset": "timeline_v1/0_instructions_cerveau_fr_a_brush_4.json",
+  "reloadPreset": "timeline_v1/0_instructions_cerveau_fr_a_brush_4.json",
+  "intro": {
+    "audio": "intro_caro_loud_2.json",
+    "sequences": [
+      {
+        "id": "pre_2",
+        "preset": "timeline_v1/0_2_title_en_3g.json",
+        "duration": -1,
+        "durationMin": 1,
+        "onClick": false,
+        "transition": 1,
+        "autoTime": true,
+        "mobileAutoOffset": true,
+        "enterButton": true
+      },
+      {
+        "id": "pre_3",
+        "android": "timeline_v1/0_5_ecouteurs_fr_android_5_en.json",
+        "iphone": "timeline_v1/0_5_ecouteurs_fr_iphone_4_en.json",
+        "desktop": "timeline_v1/0_5_ecouteurs_fr_desktop_4_en.json",
+        "duration": -1,
+        "durationMin": 0,
+        "onClick": false,
+        "transition": 2,
+        "autoTime": true,
+        "mobileAutoOffset": true,
+        "arrowButton": true
+      },
+      {
+        "id": "pre_4",
+        "preset": "timeline_v1/0_4_context_fr_3_scale_year_en.json",
+        "duration": -1,
+        "durationMin": 0,
+        "onClick": false,
+        "transition": 2,
+        "yearInText": true,
+        "mobileAutoOffset": true,
+        "arrowButton": true
+      },
+      {
+        "id": "pre_5",
+        "preset": "timeline_v1/0_4_date_fr_3_scale_en.json",
+        "duration": -1,
+        "durationMin": 0,
+        "onClick": false,
+        "transition": 2,
+        "mobileAutoOffset": true,
+        "arrowButton": true
+      },
+      {
+        "id": "pre_7",
+        "preset": "timeline_v1/0_instructions_cerveau_fr_a_brush_4.json",
+        "duration": -1,
+        "durationMin": 5,
+        "onClick": false,
+        "transition": 1.5,
+        "glissez": true,
+        "onRelease": false,
+        "mobileAutoOffset": true
+      }
+    ]
+  },
+  "eyes": {
+    "00:00.00": "neutre"
+  },
+  "sequences": {
+    "00:00": {
+      "id": "LOCAL_HOLD",
+      "preset": "timeline_v1/0_instructions_cerveau_fr_a_brush_4.json"
+    }
+  },
+  "sfx": {}
+}
